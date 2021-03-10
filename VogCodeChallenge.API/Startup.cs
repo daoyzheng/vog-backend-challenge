@@ -29,7 +29,9 @@ namespace VogCodeChallenge.API
         {
             services.AddControllers();
 
-            services.AddScoped<IEmployeeRepository, MockEmployeeRepository>();
+            // We could use dependency injection to switch between different data source implementations
+            //services.AddScoped<IEmployeeRepository, MockEmployeeRepository>();
+            services.AddScoped<IEmployeeRepository, DatabaseEmployeeRepository>();
             services.AddScoped<IEmployeeService, EmployeeService>();
         }
 
