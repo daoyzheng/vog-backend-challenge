@@ -7,5 +7,7 @@
 
   <ItemGroup>
     <Folder Include="Modals\" />
+    <Folder Include="Services\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>
