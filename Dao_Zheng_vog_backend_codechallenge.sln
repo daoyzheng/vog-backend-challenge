@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.809.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{7C32CE05-4E26-45CC-8276-3B917281F410}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C22DAC35-7C9A-410F-A1FB-4523DF9342AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7C32CE05-4E26-45CC-8276-3B917281F410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C32CE05-4E26-45CC-8276-3B917281F410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C32CE05-4E26-45CC-8276-3B917281F410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22DAC35-7C9A-410F-A1FB-4523DF9342AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22DAC35-7C9A-410F-A1FB-4523DF9342AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22DAC35-7C9A-410F-A1FB-4523DF9342AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22DAC35-7C9A-410F-A1FB-4523DF9342AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
