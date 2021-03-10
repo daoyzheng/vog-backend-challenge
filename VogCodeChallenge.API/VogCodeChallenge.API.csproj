@@ -5,4 +5,7 @@
   </PropertyGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Modals\" />
+  </ItemGroup>
 </Project>
